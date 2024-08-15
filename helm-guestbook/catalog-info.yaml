@@ -6,7 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: 'gypz/dmlabs'
     backstage.io/source-location: url:https://github.com/gypz/dmlabs/tree/main/src/main/infra/gateway/
-    argocd/app-name: teste
+    argocd/app-name: autorizacao-idpay
 spec:
   type: service
   lifecycle: production
