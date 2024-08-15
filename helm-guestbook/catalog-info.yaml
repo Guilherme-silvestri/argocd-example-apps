@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: proxy-service
+  description: L7 proxy to manage communication with our apis and services
+  annotations:
+    github.com/project-slug: 'gypz/dmlabs'
+    backstage.io/source-location: url:https://github.com/gypz/dmlabs/tree/main/src/main/infra/gateway/
+spec:
+  type: service
+  lifecycle: production
+  owner: dmpag
+  system: gateway
+  providesApis:
+    - checkout-api
