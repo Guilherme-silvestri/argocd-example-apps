@@ -7,6 +7,7 @@ metadata:
     github.com/project-slug: 'gypz/dmlabs'
     backstage.io/source-location: url:https://github.com/gypz/dmlabs/tree/main/src/main/infra/gateway/
     argocd/app-name: teste
+    prometheus.io/alert: all
 spec:
   type: service
   lifecycle: production
